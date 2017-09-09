@@ -8,9 +8,6 @@ body {
     padding-top: 54px;
 }
 
-/*.mainContent{
-background: url("../img/bgr_cut.jpg") no-repeat;
-}*/
 @media (min-width: 992px) {
     body {
         padding-top: 56px;
@@ -35,10 +32,39 @@ background: url("../img/bgr_cut.jpg") no-repeat;
     background: white;
 }
 
-#logoContainer img{
-border-radius: 27% 27%;
+@media (max-width: 575px) {
+#sideContainer{
+    display: none;
+    }
 }
-#mainContainer{
-    Padding-left: 5%;
-    Padding-right: 5%;
+
+@media (max-width: 767px) {
+    #sideContainer{
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    #sideContainer{
+        display: none;
+    }
+}
+
+
+#sideContainer div{
+    font-family: "sans-serif";
+    font-size: 0.9em;
+    background-color: #9bc15f;
+    border-radius: 45% 45%;
+    margin-top: 15%;
+}
+
+#banner{
+
+    background-size: auto;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }
