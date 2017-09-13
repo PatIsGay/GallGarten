@@ -60,9 +60,40 @@ body {
 }
 
 #banner{
-
-    background-size: auto;
+height: 180px;
+width: 100%;
+padding: 0em 1em 0em 1em;
+background: #0c5460;
 }
+
+#banner img{
+height: 100%;
+width:70%;
+max-width: 1500px !important;
+z-index: 1000;
+}
+
+@media (max-width: 991px) {
+    #banner{
+        padding: 0em 1em 0em 1em;
+    }
+    #banner img{
+        height: 100%;
+        width: 100%;
+    }
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    #banner{
+        padding: 0em 0.5em 0em 0.5em;
+        height: 80px;
+    }
+    #banner img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
 
 .col-centered{
     float: none;
